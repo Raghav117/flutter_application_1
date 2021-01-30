@@ -280,7 +280,7 @@ class _MyAppState extends State<MyApp> {
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
                           Text("Return Pending"),
-                          Text("\$2076",
+                          Text("₹2076",
                               style: TextStyle(
                                   color: Color.fromRGBO(120, 161, 202, 1),
                                   fontSize: 18,
@@ -294,7 +294,7 @@ class _MyAppState extends State<MyApp> {
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
                           Text("Return Settled"),
-                          Text("\$2076",
+                          Text("₹2076",
                               style: TextStyle(
                                   color: Color.fromRGBO(120, 161, 202, 1),
                                   fontSize: 18,
@@ -428,7 +428,7 @@ class _MyAppState extends State<MyApp> {
                                 children: [
                                   // color: ,
                                   Text(
-                                    "\$1000",
+                                    "₹1000",
                                     style: TextStyle(
                                         color: Color.fromRGBO(120, 161, 202, 1),
                                         fontSize: 30,
@@ -464,7 +464,7 @@ class _MyAppState extends State<MyApp> {
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
                           Text("GMV Settled"),
-                          Text("\$1000",
+                          Text("₹1000",
                               style: TextStyle(
                                   color: Color.fromRGBO(120, 161, 202, 1),
                                   fontSize: 18,
@@ -478,7 +478,7 @@ class _MyAppState extends State<MyApp> {
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
                           Text("GMV Pending"),
-                          Text("\$1000",
+                          Text("₹1000",
                               style: TextStyle(
                                   color: Color.fromRGBO(120, 161, 202, 1),
                                   fontSize: 18,
