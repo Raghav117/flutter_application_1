@@ -213,12 +213,17 @@ class _MyAppState extends State<MyApp> {
                       PieChart(
                           // chartType: ChartType.ring,
                           // centerText: "RTO %",
-                          dataMap: {
-                            "Good": 4,
-                            "Average": 4,
-                            "Danger": 1,
-                            "Blocked": 2,
-                          }),
+                          colorList: [
+                            Colors.green,
+                            Colors.yellow,
+                            Colors.red,
+                            Colors.black
+                          ], dataMap: {
+                        "Good": 4,
+                        "Average": 4,
+                        "Danger": 1,
+                        "Blocked": 2,
+                      }),
                       SizedBox(
                         height: 10,
                       )
