@@ -519,26 +519,25 @@ class _MyAppState extends State<MyApp> {
               ),
             ),
           ),
-          SizedBox(
-            height: 10,
-          ),
-          Container(
-            child: Padding(
-              padding:
-                  const EdgeInsets.symmetric(horizontal: 50.0, vertical: 8),
-              child: Text(
-                "Summary Sheet",
-                style: TextStyle(color: Colors.white, fontSize: 25),
+          Material(
+            elevation: 10,
+            color: Colors.transparent,
+            child: Container(
+              child: Padding(
+                padding:
+                    const EdgeInsets.symmetric(horizontal: 50.0, vertical: 8),
+                child: Text(
+                  "Summary Sheet",
+                  style: TextStyle(color: Colors.white, fontSize: 25),
+                ),
+              ),
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(25),
+                color: Color.fromRGBO(120, 161, 202, 1),
               ),
             ),
-            decoration: BoxDecoration(
-              borderRadius: BorderRadius.circular(25),
-              color: Color.fromRGBO(120, 161, 202, 1),
-            ),
           ),
-          SizedBox(
-            height: 10,
-          ),
+          Container(height: 10, color: Colors.transparent),
         ],
       ),
     );
