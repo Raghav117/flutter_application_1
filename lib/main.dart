@@ -234,6 +234,85 @@ class _MyAppState extends State<MyApp> {
                             }),
                             SizedBox(
                               height: 10,
+                            ),
+                            Divider(
+                              thickness: 3,
+                            ),
+                            Text("RTO % as per your order history till date"),
+                            SizedBox(
+                              height: 10,
+                            ),
+                            Row(
+                              mainAxisAlignment: MainAxisAlignment.spaceAround,
+                              children: [
+                                Column(
+                                  mainAxisAlignment: MainAxisAlignment.start,
+                                  children: [
+                                    Container(
+                                      height: 20,
+                                      width: 20,
+                                      decoration: BoxDecoration(
+                                          color: Colors.green,
+                                          shape: BoxShape.circle),
+                                    ),
+                                    Text(
+                                      "<= 19.99 %\n ",
+                                      style: TextStyle(fontSize: 12),
+                                    )
+                                  ],
+                                ),
+                                Column(
+                                  mainAxisAlignment: MainAxisAlignment.start,
+                                  children: [
+                                    Container(
+                                      height: 20,
+                                      width: 20,
+                                      decoration: BoxDecoration(
+                                          color: Colors.yellow,
+                                          shape: BoxShape.circle),
+                                    ),
+                                    Text(
+                                      "20% - 29.99%\n₹10 per RTO",
+                                      style: TextStyle(fontSize: 12),
+                                      textAlign: TextAlign.center,
+                                    )
+                                  ],
+                                ),
+                                Column(
+                                  mainAxisAlignment: MainAxisAlignment.start,
+                                  children: [
+                                    Container(
+                                      height: 20,
+                                      width: 20,
+                                      decoration: BoxDecoration(
+                                          color: Colors.red,
+                                          shape: BoxShape.circle),
+                                    ),
+                                    Text(
+                                      "30% - 39.99%\n₹20 per RTO",
+                                      style: TextStyle(fontSize: 12),
+                                      textAlign: TextAlign.center,
+                                    )
+                                  ],
+                                ),
+                                Column(
+                                  mainAxisAlignment: MainAxisAlignment.start,
+                                  children: [
+                                    Container(
+                                      height: 20,
+                                      width: 20,
+                                      decoration: BoxDecoration(
+                                          color: Colors.black,
+                                          shape: BoxShape.circle),
+                                    ),
+                                    Text(
+                                      ">= 40%\n₹30 per RTO",
+                                      style: TextStyle(fontSize: 12),
+                                      textAlign: TextAlign.center,
+                                    )
+                                  ],
+                                ),
+                              ],
                             )
                           ],
                         ),
